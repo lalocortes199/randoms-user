@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  padding: 20px 0;
+
+  background: rgba(46, 26, 228, 0.514);
+
+  font-family: 'SST', sans-serif;
+}
+
+#app {
+  display: grid;
+  gap: 30px;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  display: grid;
+  gap: 30px;
+
+  width: 100%;
+  margin: 0 auto;
+
+  grid-template-columns: repeat(4, 1fr);
+}
